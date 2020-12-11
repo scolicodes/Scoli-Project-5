@@ -4,34 +4,40 @@
 
 body {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 1080px;
 }
+
+
 
 .search {
-    margin: 30px auto;
-    max-width: 50%;
+    margin: 0px auto;
+    max-width: 1050px;
+    text-align: center;
     
 }
 
-#myInput {
-    
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    font-size: 15px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid rgb(192, 192, 192); /* Add a grey border */
-    margin: 0 auto;
-    width: 100%;  
-    border-radius: 5px;
-    
+input {
+    height: 50px;
+    width: 500px;
+    max-width: 1080px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid rgb(204, 204, 204);
+    padding-left: 10px;
   }
 
-.grid {
+  input::placeholder {
+      color: rgb(148, 148, 148) ;
+
+  }
+
+
+.gallery {
     max-width: 850px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
