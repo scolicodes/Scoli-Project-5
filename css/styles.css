@@ -33,11 +33,10 @@ input {
 
 
 .gallery {
-    max-width: 850px;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 20px;
-    margin-top: 20px;
+    max-width: 1000px;;
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    grid-gap: 1rem;
+    justify-content: center;
+    margin: 20px auto 0;
 }
